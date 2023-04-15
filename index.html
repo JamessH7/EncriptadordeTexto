@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300&family=Wo rk+Sans:wght@100&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Signika:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+
+<body>
+    <div class="texto">
+        <h1>ENCRIPTAMIENTO</h1>
+    </div>
+    <div class="cuerpo">
+        <div class="onepart">
+            <textarea id="ingresotexto" class="ingreso" placeholder="ingrese su texto aqui" type="text"></textarea>
+
+            <div class="botones">
+                <span class="textoboton">Ingrese sin acentos por favor</span>
+                <div class="botoness">
+                    <button type="button" id="encriptar()" onclick="encriptar()">ENCRIPTAR</button>
+                    <button type="button" id="desecriptar()" onclick="desencriptar()">DESENCRIPTAR</button>
+                </div>
+            </div>
+        </div>
+        <div class="truepart">
+            <textarea id="salidatexto" class="salida" placeholder="aqui saldra su texto encriptado"
+                type="text"></textarea>
+            <button id="copiar">COPIAR</button>
+        </div>
+    </div>
+</body>
+
+<script src="/index.js"></script>
+
+</html>
